@@ -1,0 +1,9 @@
+%{"erlsha2": {:git, "https://github.com/vinoski/erlsha2.git", "03a653fb2aa93e79d8166fd0311d0f739afc26ed", [tag: "2.1"]},
+  "goldrush": {:git, "git://github.com/DeadZen/goldrush.git", "71e63212f12c25827e0c1b4198d37d5d018a7fec", [tag: "0.1.6"]},
+  "gossiperl_client": {:git, "https://github.com/gossiperl/gossiperl-client-erlang.git", "97b446155d9f613ec2f6507c4b9f33dd45c37308", [tag: "1.0.0"]},
+  "gossiperl_core": {:git, "https://github.com/gossiperl/gossiperl-core-erlang.git", "1534a36301bd04d62afa1ff71dea59eb1438ff4d", [tag: "1.0.0"]},
+  "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "8845c9acbe5450d0f51b5f3f33ede884e6d51fca", [tag: "v2.0.4"]},
+  "lager": {:git, "https://github.com/basho/lager.git", "b6b6cebcb27ccff8acc59ae775acebc2f52e4926", [tag: "2.0.3"]},
+  "quickrand": {:git, "https://github.com/okeuday/quickrand.git", "0395a10b94472ccbe38b62bbfa9d0fc1ddac1dd7", [tag: "v1.3.2"]},
+  "thrift": {:git, "https://github.com/gossiperl/thrift-erlang.git", "807acb9cbaa8225185135ed4aaee655568019df4", [ref: "master"]},
+  "uuid": {:git, "https://github.com/gossiperl/uuid.git", "f7c141c8359cd690faba0d2684b449a07db8e915", [ref: "master"]}}
