@@ -1,9 +1,9 @@
-defmodule GossiperlExampleElixir.Mixfile do
+defmodule GossiperlClientElixir.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :gossiperl_example_elixir,
-     version: "0.0.1",
+    [app: :gossiperl_client_elixir,
+     version: "0.1.0",
      elixir: "~> 1.0",
      deps: deps]
   end
