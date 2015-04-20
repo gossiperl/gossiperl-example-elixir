@@ -25,6 +25,6 @@ defmodule GossiperlClientElixir.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [ {:gossiperl_client, git: "https://github.com/gossiperl/gossiperl-client-erlang.git", tag: "1.0.0"} ]
+    [ {:gossiperl_client, git: "https://github.com/gossiperl/gossiperl-client-erlang.git", tag: "1.1.0"} ]
   end
 end

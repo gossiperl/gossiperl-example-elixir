@@ -11,7 +11,7 @@ defmodule GossiperlClientElixir do
                 :client_name => client_name,
                 :client_port => client_port,
                 :client_secret => client_secret,
-                :symmetric_key => symmetric_key }, :undefined )
+                :symmetric_key => symmetric_key }, :gossiperl_client_listener )
   end
 
   def connect( %{ :overlay_name => overlay_name,
@@ -26,7 +26,7 @@ defmodule GossiperlClientElixir do
                                and is_binary( symmetric_key )
                                and is_integer( overlay_port )
                                and is_integer( client_port )
-                               and ( is_pid( listener ) or listener == :undefined ) do
+                               and is_atom( listener ) do
     :gossiperl_client_sup.connect( [ { :overlay_name, overlay_name },
                                      { :overlay_port, overlay_port },
                                      { :client_name, client_name },
